@@ -24,6 +24,9 @@ npm start
 
 A aplicação rodará na porta 3000. Coloque no seu browser http://localhost:3000/
 
+![image](https://user-images.githubusercontent.com/93010438/215831108-77c277fb-f568-4f2d-9bf2-b7a3b9283f0b.png)
+
+
 ## Dependências de arquivos e configurações
 
  - **express-generator**: gera um app express padrão. 
