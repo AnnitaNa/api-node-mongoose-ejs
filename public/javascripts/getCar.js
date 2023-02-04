@@ -8,7 +8,6 @@ function getAll(endpoint) {
     fetch(endpoint, config)
         .then((res) => res.json())
         .then((cars) => {
-            console.log(cars);
             document.querySelector("tbody").innerHTML = cars
                 .map((car) => {
                     return `<tr>
@@ -29,7 +28,6 @@ function getAll(endpoint) {
 }
 
 function getFilters(form) {
-    console.log(form);
     var formData = new FormData(form);
 
     let filters = Array.from(formData.entries())
